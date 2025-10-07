@@ -1,4 +1,4 @@
-# -------------------------------------------
+ # -------------------------------------------
 # Exercise 1: Boolean Logic
 # -------------------------------------------
 # In this exercise, you’ll explore how Python uses True and False values.
@@ -28,7 +28,19 @@
 
 # Write your code below:
 
+num1 = 42
+num2 = 8
+num3 = 3.141592
+pi = 3.141592
+num4 = pi
 
+
+print(num1 + num2)
+print(num1 / num2)
+print(num2 == num1)
+print (num2 != num2)
+print(num1 != num2) 
+print(num3 == num4)
 # Step 2: String Comparisons
 # --------------------------
 # You can compare text (strings) using == or !=.
@@ -45,6 +57,12 @@
 
 # Write your code below:
 
+colour1 = "red"
+colour2 = "blue"
+colour3 = "purple"
+
+print(colour2 == colour2)
+print(colour1 != colour2)
 
 # Step 3: Input and Boolean Results
 # ---------------------------------
@@ -61,6 +79,13 @@
 # Ask the user to type a word and compare it to a stored string, then print True/False.
 
 # Write your code below:
+
+usrnum1 = int(input("Enter a number"))
+usrnum2 = int(input("Enter a second number"))
+
+print(f"Is {usrnum1} equal to {usrnum2}? :", usrnum1 == usrnum2)
+
+print(f"Is {usrnum1} not equal to {usrnum2}? :  ", usrnum1 != usrnum2)
 
 # -------------------------------------------
 # Submitting Your Work
@@ -98,6 +123,15 @@
 # Hint: use print((num1 > 10) and (num2 < 20)) to see True or False
 
 # Write your extension code below:
+#1
+upass = input("Please enter your password: ")
+spass = "booleanboy1992"
+
+print(upass == spass)
+
+#2
+
+#3
 
 
 # -------------------------------------------
